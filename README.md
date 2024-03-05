@@ -1,5 +1,16 @@
 # balatro_save_editor
 
+```python
+def main():
+    balatro_save_editor = BalatroSaveEditor(os.path.join(os.getenv('APPDATA'), 'Balatro\\1\\save.jkr'))
+    balatro_save_editor.edit_money(new_value=19999)
+    balatro_save_editor.edit_chips()
+    balatro_save_editor.edit_multipliers()
+    balatro_save_editor.edit_card_abilities()
+    balatro_save_editor.edit_card_limits()
+    balatro_save_editor.balatro_save_file.write(dry_run=False)
+```
+
 Just a fairly simple python script to modify your balatro save file.
 
 `balatro_save_editor` contains the main. 
