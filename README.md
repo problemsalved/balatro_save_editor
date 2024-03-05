@@ -68,4 +68,10 @@ Modify the script with the changes you want made, and then **with baltaro closed
 
 Backups will be made into the same directory as the save file. The backup is created before writing to the save file.
 
+## Screenshots
+
+![Started Scoring](balatro_1.jpg)
+
+![Whoops, Overshot](balatro_2.jpg)
+
 Changes won't be made unless the script is certain that the save file has been deserialized correctly (and can reserialize to the same original save file.)
